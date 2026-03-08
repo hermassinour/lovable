@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Hermassi Nour - Frontend Developer</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+}
+
+body{
+font-family:'Poppins',sans-serif;
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background-image:url("https://images.unsplash.com/photo-1498050108023-c5249f4df085");
+background-size:cover;
+background-position:center;
+}
+
+/* HERO CARD */
+
+.hero{
+width:80%;
+max-width:900px;
+padding:60px;
+border-radius:25px;
+background:rgba(255,255,255,0.15);
+backdrop-filter:blur(10px);
+text-align:center;
+color:white;
+}
+
+/* TITLE */
+
+.hero h1{
+font-size:60px;
+font-weight:700;
+margin-bottom:20px;
+}
+
+/* SUBTITLE */
+
+.hero p{
+font-size:22px;
+opacity:0.9;
+margin-bottom:40px;
+}
+
+/* BUTTON */
+
+.btn{
+padding:15px 35px;
+font-size:18px;
+border:none;
+border-radius:30px;
+background:#21b6b6;
+color:white;
+cursor:pointer;
+transition:0.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="hero">
+
+<h1>Hermassi Nour</h1>
+
+<p>
+Frontend Developer passionate about building modern web interfaces
+</p>
+
+<button class="btn">Voir mes projets</button>
+
+</div>
+
+</body>
+</html>
